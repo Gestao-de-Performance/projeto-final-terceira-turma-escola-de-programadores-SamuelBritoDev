@@ -24,11 +24,26 @@
 
 .fonte{
     font-family: 'Times New Roman', Times, serif;
+    color: #2B2B2B;
+    /* color: #4B3621 ; */
     font-size: 3rem;
     font-weight: 400;
     padding-left: 104%;
 }
 
+.fonte2{
+    color: #4B3621;
+   
+}
+
+.Fonteapresentação {
+    background-color: #FFF3E0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #FF6347;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}    
 
 .justificarSubtitulos{
     justify-content: space-around;
@@ -41,9 +56,18 @@
 
 /* Vermemlho porque se refere aos blocos em vermelho */
 .vermelho{
-    background-color:#cc3817c7;
+    /* background-color:#cc3817c7; */
+    /* color: white; */
     color: white;
+    /* background-color:#F4E1D2; */
+    /* background-color:#E6A57E; */
+    /* background-color:#DCC3A2; */
 
+    background-color:#DCC3A2;
+    
+    /* background-color:#C05F27; */
+    /* background-color:#8B5444; */
+    
 }
 
 .branco{
@@ -53,8 +77,9 @@
 
 }
 
+/* cor que preenche toda a tela */
 .black{
-    background-color: black ;
+    background-color: #8B5444 ;
 }
 
 .center h2{
@@ -66,13 +91,8 @@
 
 }
 
-.justicdescrição{
-
-}
-
-.responsive-img1{
-
-        width: 1px;  /* Ajusta a largura e a altura será proporcional */
+.responsive-img1 {
+        width: 150px;  /* Ajusta a largura e a altura será proporcional */
         height: auto;  /* Mantém a proporção */
 
     /* max-width: 100%; A largura não excede o tamanho do contêiner */
