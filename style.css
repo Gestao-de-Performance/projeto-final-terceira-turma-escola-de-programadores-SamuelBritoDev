@@ -1,6 +1,6 @@
 .a{
     display: flex;
-    border: solid red;
+    /* border: solid red; */
     /* justify-content: spac; */  
     gap: 5rem;
 
@@ -8,17 +8,35 @@
 
 .fonte{
     font-family: 'Times New Roman', Times, serif;
-    color: brown;
     font-size: 3rem;
     font-weight: 400;
     padding-left: 5%;
 }
 
+
 .justificarSubtitulos{
     justify-content: space-around;
     display: flex;
-    border: solid red;
+    /* border: solid red; */
     font-size: 1.6rem;
     font-weight: 600;
     margin: 10px 0;
+}
+
+/* Vermemlho porque se refere aos blocos em vermelho */
+.vermelho{
+    background-color:#cc3817c7;
+    color: white;
+
+}
+
+.branco{
+    /* color:#eb613b; */
+    color: white;
+    
+
+}
+
+.black{
+    background-color: black ;
 }
