@@ -2,7 +2,23 @@
     display: flex;
     /* border: solid red; */
     /* justify-content: spac; */  
-    gap: 5rem;
+    /* gap: 30rem; */
+}
+
+.churrasCoder h1{
+    text-align: center;
+     /* Altere conforme necessário */
+}
+
+.bordarchurras{
+    border: solid forestgreen;
+}
+
+
+.churrascoder{
+    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -10,7 +26,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
     font-weight: 400;
-    padding-left: 5%;
+    padding-left: 104%;
 }
 
 
@@ -39,4 +55,30 @@
 
 .black{
     background-color: black ;
+}
+
+.center h2{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+
+}
+
+.justicdescrição{
+
+}
+
+.responsive-img1{
+
+        width: 1px;  /* Ajusta a largura e a altura será proporcional */
+        height: auto;  /* Mantém a proporção */
+
+    /* max-width: 100%; A largura não excede o tamanho do contêiner */
+    
+    /* height: auto;  Mantém a proporção */
+
+    /*  width: 150px;   Ajusta a largura e a altura será proporcional 
+        height: auto;   Mantém a proporção      */
 }
