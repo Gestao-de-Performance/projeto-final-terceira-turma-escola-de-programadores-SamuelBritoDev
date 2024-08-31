@@ -1,3 +1,15 @@
+:root{
+    --red--1: #fff;
+    --amarelo--: #DCC3A2;
+    /* fazr isso com as cores oara deixar o site mais leve */
+
+}
+
+/* remover todos os styles */
+/* usar imagens no formato webp sempre */
+
+/* FLEX WARP PARA QUEBRAR TEXTO O RODAPÉ */
+
 
 /* Vermemlho porque se refere aos blocos em vermelho */
 .vermelho{
@@ -5,25 +17,27 @@
     /* color: white; */
     display: flex;
     color: white;
+    
     /* background-color:#F4E1D2; */
     /* background-color:#E6A57E; */
     /* background-color:#DCC3A2; */
 
-    background-color:#DCC3A2;
+    background-color:var(--amarelo--);
     
     /* background-color:#C05F27; */
     /* background-color:#8B5444; */
 }
 
 
+
 /* color: #2B2B2B;
     color: #4B3621  */
 .churrasCoderh1{
-    text-align: center; /* Altere conforme necessário */
     font-size: 3.5rem;  /* Aumenta o tamanho da fonte */
     font-family: 'Courier New', Courier, monospace;/* Fonte estilo código */
     background-color:#DCC3A2; /* color: white; */
     color: #2B2B2B;
+    width: -50%;
 }
 
 .bordarchurras{
