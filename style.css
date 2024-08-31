@@ -1,13 +1,29 @@
-.a{
+
+/* Vermemlho porque se refere aos blocos em vermelho */
+.vermelho{
+    /* background-color:#cc3817c7; */
+    /* color: white; */
     display: flex;
-    /* border: solid red; */
-    /* justify-content: spac; */  
-    /* gap: 30rem; */
+    color: white;
+    /* background-color:#F4E1D2; */
+    /* background-color:#E6A57E; */
+    /* background-color:#DCC3A2; */
+
+    background-color:#DCC3A2;
+    
+    /* background-color:#C05F27; */
+    /* background-color:#8B5444; */
 }
 
-.churrasCoder h1{
-    text-align: center;
-     /* Altere conforme necessário */
+
+/* color: #2B2B2B;
+    color: #4B3621  */
+.churrasCoderh1{
+    text-align: center; /* Altere conforme necessário */
+    font-size: 3.5rem;  /* Aumenta o tamanho da fonte */
+    font-family: 'Courier New', Courier, monospace;/* Fonte estilo código */
+    background-color:#DCC3A2; /* color: white; */
+    color: #2B2B2B;
 }
 
 .bordarchurras{
@@ -15,35 +31,12 @@
 }
 
 
-.churrascoder{
-    /* justify-content: center; */
-    display: flex;
-    justify-content: center;
 
-}
-
-.fonte{
-    font-family: 'Times New Roman', Times, serif;
-    color: #2B2B2B;
-    /* color: #4B3621 ; */
-    font-size: 3rem;
-    font-weight: 400;
-    padding-left: 104%;
-}
 
 .fonte2{
     color: #4B3621;
    
 }
-
-.Fonteapresentação {
-    background-color: #FFF3E0;
-    padding: 20px;
-    border-radius: 10px;
-    border: 2px solid #FF6347;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}    
 
 .justificarSubtitulos{
     justify-content: space-around;
@@ -54,21 +47,7 @@
     margin: 10px 0;
 }
 
-/* Vermemlho porque se refere aos blocos em vermelho */
-.vermelho{
-    /* background-color:#cc3817c7; */
-    /* color: white; */
-    color: white;
-    /* background-color:#F4E1D2; */
-    /* background-color:#E6A57E; */
-    /* background-color:#DCC3A2; */
 
-    background-color:#DCC3A2;
-    
-    /* background-color:#C05F27; */
-    /* background-color:#8B5444; */
-    
-}
 
 .branco{
     /* color:#eb613b; */
@@ -91,8 +70,8 @@
 
 }
 
-.responsive-img1 {
-        width: 150px;  /* Ajusta a largura e a altura será proporcional */
+.responsiveimg1{
+        width: 25%;  /* Ajusta a largura e a altura será proporcional */
         height: auto;  /* Mantém a proporção */
 
     /* max-width: 100%; A largura não excede o tamanho do contêiner */
@@ -102,3 +81,43 @@
     /*  width: 150px;   Ajusta a largura e a altura será proporcional 
         height: auto;   Mantém a proporção      */
 }
+
+
+
+/* inicio apresentação */
+
+
+
+/* Estilos para o container da apresentação */
+.containerApresentacao{
+    background-color: #FFF3E0;  /* Cor de fundo em tom pastel */
+    padding: 20px;              /* Espaçamento interno */
+    border-radius: 10px;        /* Bordas arredondadas */
+    border: 2px solid #FF6347;  /* Borda laranja */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;         /* Centralizar o texto */
+
+}
+
+
+/* Estilos para o título */
+.containerApresentacaoh2{
+    font-size: 2.5rem;           /* Aumenta o tamanho da fonte */
+    color: #4B3621;             /* Cor */
+    font-family: 'Courier New', Courier, monospace; /* Fonte estilo código */
+    animation: fadeIn 2s ease-in-out; /* Animação de fade-in */
+}
+
+/* Estilos para o parágrafo */
+.containerApresentacaop{
+    font-size: 2em;           /* Tamanho da fonte maior */
+    color: #333;                /* Cor do texto em cinza escuro */
+}
+
+/* Animação de fade-in */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* final apresentação */
