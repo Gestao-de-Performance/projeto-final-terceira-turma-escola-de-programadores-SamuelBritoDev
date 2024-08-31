@@ -30,7 +30,17 @@
     border: solid forestgreen;
 }
 
+.menuh2base{
+    background: #8B5444; 
+    margin: 0; height: 500%; 
+    padding: 1% 0; 
+    
+}
 
+.menuh2fonte{
+    font-size: 2.5rem;
+
+}
 
 
 .fonte2{
@@ -42,7 +52,6 @@
     justify-content: space-around;
     display: flex;
     /* border: solid red; */
-    font-size: 1.6rem;
     font-weight: 600;
     margin: 10px 0;
 }
@@ -58,7 +67,7 @@
 
 /* cor que preenche toda a tela */
 .black{
-    background-color: #8B5444 ;
+    background-color: #DCC3A2 ;
 }
 
 .center h2{
@@ -110,7 +119,7 @@
 
 /* Estilos para o parágrafo */
 .containerApresentacaop{
-    font-size: 2em;           /* Tamanho da fonte maior */
+    font-size: 2rem;           /* Tamanho da fonte maior */
     color: #333;                /* Cor do texto em cinza escuro */
 }
 
