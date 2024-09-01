@@ -45,6 +45,31 @@ gap é espacamento entre containers*/
     
 }
 
+.margin1717{
+    margin: 1% 7% 1% 7%;
+
+}
+
+.margin115115{
+    margin: 1% 15% 1% 15%;
+
+}
+
+.margin2525125{
+    margin: 2.5% 25% 1% 25%
+
+}
+
+.marginAfastarImagin{
+    margin: 1.2% 0;
+
+}
+
+.marginEspRod{
+    margin: 2.5% 0 0 22%;
+    display: flex;
+
+}
 
 .zerandoMargin{
     margin: 0%;
@@ -70,9 +95,6 @@ gap é espacamento entre containers*/
 
 }
 
-.bordarchurras{
-    border: solid forestgreen;
-}
 
 .menuh2base{
     background: var(--marromMenu--); 
@@ -234,6 +256,28 @@ gap é espacamento entre containers*/
     transform: scale(2.2);            /* Aumenta o botão quando o mouse passa por cima */
 }
 
+.floatbuttonUp {
+    position: fixed;                  /* Fixa o botão na tela */
+    bottom: 300px;                     /* Distância da parte inferior da tela */
+    left: 1800px;                       /* Distância da parte esquerda da tela */
+    width: 60px;                      /* Largura do botão */
+    height: 60px;                    /* Altura do botão */
+    background-image: url('img/Ferramenta\ 11.webp'); /* Imagem do botão */
+    background-size: cover;           /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center;      /* Centraliza a imagem no botão */
+    border-radius: 50%;               /* Torna o botão redondo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar destaque */
+    z-index: 1000;                    /* Garante que o botão fique sobre outros elementos */
+    cursor: pointer;                  /* Muda o cursor para mãozinha ao passar sobre o botão */
+    transition: transform 0.3s ease;  /* Transição suave ao passar o mouse */
+    display: block;
+}
+
+.floatbuttonUp:hover {
+    transform: scale(2.2);            /* Aumenta o botão quando o mouse passa por cima */
+}
+
+
 .clarearTexto{
     background-color: var(--amarelo--);
     transition: 2s;
@@ -258,15 +302,3 @@ gap é espacamento entre containers*/
 
 }
 
-.clarearMenuaaaa{
-    font-size: 2.5rem;
-    color: white;
-    transition: 1s;
-
-}
-
-.clarearMenuaaaa:hover{
-    color:var(--marromH1--);
-    font-size: 2.8rem;
-
-}
