@@ -27,7 +27,7 @@ gap é espacamento entre containers*/
     /* color: white; */
     display: flex;
     color: white;
-    
+
     /* background-color:#F4E1D2; */
     /* background-color:#E6A57E; */
     /* background-color:#DCC3A2 var(--creme--)  ;  */
@@ -38,15 +38,19 @@ gap é espacamento entre containers*/
     /* background-color: #8B5444 var(--marromMenu--); */
 }
 
+.imagAtras{
+    background-image: url(img/Ferramenta_1-removebg-preview.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+
 .zerandoMargin{
     margin: 0%;
 
 }
 
-.espacamentoH1{
-    padding-right: 40%;
-
-}
 
 .margimApresentacao{
     margin: 1% 7% 1% 7%;
@@ -61,7 +65,9 @@ gap é espacamento entre containers*/
     font-family: 'Courier New', Courier, monospace;/* Fonte estilo código */
     background-color:var(--creme--); /* color: white; */
     color: var(--marromH1--);
-    width: -50%;
+    justify-content: center;
+    display: flex;
+
 }
 
 .bordarchurras{
@@ -247,6 +253,19 @@ gap é espacamento entre containers*/
 }
 
 .clarearMenu:hover{
+    color:var(--cremeApres--);
+    font-size: 2.7rem;
+
+}
+
+.clarearMenuaaaa{
+    font-size: 2.5rem;
+    color: white;
+    transition: 1s;
+
+}
+
+.clarearMenuaaaa:hover{
     color:var(--marromH1--);
     font-size: 2.8rem;
 
