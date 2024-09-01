@@ -2,11 +2,21 @@
     --red--1: #fff;
     --amarelo--: #DCC3A2;
     /* fazr isso com as cores oara deixar o site mais leve */
+    --creme--: #DCC3A2;
+    --marromMenu--: #8B5444;
+    --marromH1--: #2B2B2B;
+    --cremeApres--: #FFF3E0;
+    --textoCinza--: #333;
 
 }
 
 /* remover todos os styles */
 /* usar imagens no formato webp sempre */
+
+/* se eu quiser que nao mude de tamanho px
+se for para se adaptar % ou rem
+
+gap é espacamento entre containers*/
 
 /* FLEX WARP PARA QUEBRAR TEXTO O RODAPÉ */
 
@@ -20,23 +30,37 @@
     
     /* background-color:#F4E1D2; */
     /* background-color:#E6A57E; */
-    /* background-color:#DCC3A2; */
+    /* background-color:#DCC3A2 var(--creme--)  ;  */
 
     background-color:var(--amarelo--);
     
     /* background-color:#C05F27; */
-    /* background-color:#8B5444; */
+    /* background-color: #8B5444 var(--marromMenu--); */
 }
 
+.zerandoMargin{
+    margin: 0%;
+
+}
+
+.espacamentoH1{
+    padding-right: 40%;
+
+}
+
+.margimApresentacao{
+    margin: 1% 7% 1% 7%;
+
+}
 
 
 /* color: #2B2B2B;
     color: #4B3621  */
 .churrasCoderh1{
-    font-size: 3.5rem;  /* Aumenta o tamanho da fonte */
+    font-size: 5rem;  /* Aumenta o tamanho da fonte */
     font-family: 'Courier New', Courier, monospace;/* Fonte estilo código */
-    background-color:#DCC3A2; /* color: white; */
-    color: #2B2B2B;
+    background-color:var(--creme--); /* color: white; */
+    color: var(--marromH1--);
     width: -50%;
 }
 
@@ -45,7 +69,7 @@
 }
 
 .menuh2base{
-    background: #8B5444; 
+    background: var(--marromMenu--); 
     margin: 0; height: 500%; 
     padding: 1% 0; 
     
@@ -57,10 +81,10 @@
 }
 
 
-.fonte2{
+/* .fonte2{
     color: #4B3621;
    
-}
+} */
 
 .justificarSubtitulos{
     justify-content: space-around;
@@ -70,6 +94,11 @@
     margin: 10px 0;
 }
 
+.tirarSublin{
+    color: white; 
+    text-decoration: none;
+
+}
 
 
 .branco{
@@ -81,10 +110,10 @@
 
 /* cor que preenche toda a tela */
 .black{
-    background-color: #DCC3A2 ;
+    background-color: var(--creme--) ;
 }
 
-.center h2{
+.centerH2{
     text-align: center;
 }
 
@@ -104,6 +133,17 @@
     /*  width: 150px;   Ajusta a largura e a altura será proporcional 
         height: auto;   Mantém a proporção      */
 }
+.responsiveimg2{
+    width: 20%;  /* Ajusta a largura e a altura será proporcional */
+    height: auto;  /* Mantém a proporção */
+
+/* max-width: 100%; A largura não excede o tamanho do contêiner */
+
+/* height: auto;  Mantém a proporção */
+
+/*  width: 150px;   Ajusta a largura e a altura será proporcional 
+    height: auto;   Mantém a proporção      */
+}
 
 
 
@@ -113,10 +153,10 @@
 
 /* Estilos para o container da apresentação */
 .containerApresentacao{
-    background-color: #FFF3E0;  /* Cor de fundo em tom pastel */
+    background-color: var(--cremeApres--);  /* Cor de fundo em tom pastel */
     padding: 20px;              /* Espaçamento interno */
     border-radius: 10px;        /* Bordas arredondadas */
-    border: 2px solid #FF6347;  /* Borda laranja */
+    border: 2px solid var(--marromMenu--);  /* Borda laranja */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
     text-align: center;         /* Centralizar o texto */
 
@@ -134,7 +174,7 @@
 /* Estilos para o parágrafo */
 .containerApresentacaop{
     font-size: 2rem;           /* Tamanho da fonte maior */
-    color: #333;                /* Cor do texto em cinza escuro */
+    color: var(--textoCinza--);                /* Cor do texto em cinza escuro */
 }
 
 /* Animação de fade-in */
@@ -144,3 +184,70 @@
 }
 
 /* final apresentação */
+
+.containerrodape{
+    background-color: var(--marromMenu--);  /* Cor de fundo em tom pastel */
+    padding: 20px;              /* Espaçamento interno */
+    border-radius: 10px;        /* Bordas arredondadas */
+    border: 2px solid var(--cremeApres--);  /* Borda laranja */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;         /* Centralizar o texto */
+
+}
+
+.containerrodape2{
+    font-size: 2rem;           /* Tamanho da fonte maior */
+    color: white;                /* Cor do texto em cinza escuro */
+}
+
+.containerRodapeh2{
+    font-size: 3.5rem;           /* Aumenta o tamanho da fonte */
+    color: white;             /* Cor */
+    font-family: 'Courier New', Courier, monospace; /* Fonte estilo código */
+    /* animation: fadeIn 2s ease-in-out;  */
+}
+
+.floatbutton {
+    position: fixed;                  /* Fixa o botão na tela */
+    bottom: 130px;                     /* Distância da parte inferior da tela */
+    left: 1800px;                       /* Distância da parte esquerda da tela */
+    width: 60px;                      /* Largura do botão */
+    height: 60px;                     /* Altura do botão */
+    background-image: url('img/Samuel_Brito-removebg-preview.webp'); /* Imagem do botão */
+    background-size: cover;           /* Ajusta a imagem para cobrir todo o botão */
+    background-position: center;      /* Centraliza a imagem no botão */
+    border-radius: 50%;               /* Torna o botão redondo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar destaque */
+    z-index: 1000;                    /* Garante que o botão fique sobre outros elementos */
+    cursor: pointer;                  /* Muda o cursor para mãozinha ao passar sobre o botão */
+    transition: transform 0.3s ease;  /* Transição suave ao passar o mouse */
+    display: block;
+}
+
+.floatbutton:hover {
+    transform: scale(2.2);            /* Aumenta o botão quando o mouse passa por cima */
+}
+
+.clarearTexto{
+    background-color: var(--amarelo--);
+    transition: 2s;
+
+}
+
+.clarearTexto:hover{
+    background-color: var(--cremeApres--);
+
+}
+
+.clarearMenu{
+    font-size: 2.5rem;
+    color: white;
+    transition: 1s;
+
+}
+
+.clarearMenu:hover{
+    color:var(--marromH1--);
+    font-size: 2.8rem;
+
+}
