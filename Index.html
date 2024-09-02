@@ -31,6 +31,14 @@
                 <a href="#idFerramentas" target="_self" class="tirarSublin clarearMenu" ><span>Ferramentas</span></a>
                 <a href="#idPreparo" class="tirarSublin clarearMenu"><span>Preparo</span></a>
             </div>
+            <nav class="menu-hamburguer">
+                <button class="hamburguer" onclick="chamaMenu()">☰</button>
+                <div id="menuPodrao" class="menu-links">
+                    <a href="#idCarnes" target="_self" class="tirarSublin clarearMenu"><span class="letrasHamb">Carnes</span></a>
+                    <a href="#idFerramentas" target="_self" class="tirarSublin clarearMenu"><span class="letrasHamb">Ferramentas</span></a>
+                    <a href="#idPreparo" class="tirarSublin clarearMenu"><span class="letrasHamb">Preparo</span></a>
+                </div>
+            </nav>
         </section>
     </header>
     <main class="vermelho">
@@ -111,7 +119,7 @@
                      <!-- <div>
                         <img src="img/Samuel_Brito-removebg-preview.webp" alt="">
                      </div> -->
-                    <div>
+                    <div class="contanFinal">
                         <ul>
                                 <li class="marginEspRod"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                     <path d="M6.62 10.79c-1.09 1.09-2.83 1.09-3.92 0-1.09-1.09-1.09-2.83 0-3.92l1.1-1.1c1.09-1.09 2.83-1.09 3.92 0 1.09 1.09 1.09 2.83 0 3.92l-1.1 1.1zm10.4 2.89l-1.1-1.1c-1.09-1.09-2.83-1.09-3.92 0-1.09 1.09-1.09 2.83 0 3.92l1.1 1.1c1.09 1.09 2.83 1.09 3.92 0 1.09-1.09 1.09-2.83 0-3.92zm-1.43-5.9c-.64 0-1.26.29-1.7.79l-2.89 2.9c-.44.44-.79 1.06-.79 1.7v6.9c0 .64.29 1.26.79 1.7l2.89 2.9c.44.44 1.06.79 1.7.79.64 0 1.26-.29 1.7-.79l2.89-2.9c.44-.44.79-1.06.79-1.7v-6.9c0-.64-.29-1.26-.79-1.7l-2.89-2.9c-.44-.44-1.06-.79-1.7-.79zm-1.6 2.5c.44 0 .87.17 1.17.49l1.66 1.66c.3.3.49.73.49 1.17v6.8c0 .44-.17.87-.49 1.17l-1.66 1.66c-.3.3-.73.49-1.17.49-.44 0-.87-.17-1.17-.49l-1.66-1.66c-.3-.3-.49-.73-.49-1.17v-6.8c0-.44.17-.87.49-1.17l1.66-1.66c.3-.3.73-.49 1.17-.49z"/>
@@ -133,5 +141,18 @@
             </div>
         </section>    
     </footer>
+    <script>
+
+        var menu = document.getElementById("menuPodrao");
+    
+        function chamaMenu(){
+            if(menu.style.display == "none"){
+                menu.style.display = "block";
+            } else {
+                menu.style.display = "none";
+            }
+    
+        }
+    </script>
 </body>
 </html>
