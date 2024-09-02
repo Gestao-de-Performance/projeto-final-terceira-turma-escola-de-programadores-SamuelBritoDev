@@ -393,57 +393,17 @@ li Svg, .espaContato{
         width: 300px;
 
     }
-}
 
-@media screen and (max-width: 412px) {
-    .churrasCoderh1{
-        font-size: 1.8rem;  /* Aumenta o tamanho da fonte */
-        font-family: 'Courier New', Courier, monospace;/* Fonte estilo código */
-        background-color:var(--creme--); /* color: white; */
-        color: var(--marromH1--);
-        width: 100% ;
-    }
-
-    .containerApresentacaoh2{
-        font-size: 1.3rem;           /* Aumenta o tamanho da fonte */
-    color: #4B3621;             /* Cor */
-    font-family: 'Courier New', Courier, monospace; /* Fonte estilo código */
-    animation: fadeIn 2s ease-in-out; /* Animação de fade-in */
-    }
-    .containerApresentacaop{
-        font-size: 1.2rem;           /* Tamanho da fonte maior */
-    color: var(--textoCinza--);
-    }
-    .menuh2fonte{
-        font-size: 1.8rem;
-    }
-    .containerRodapeh2{
-        font-size: 1.9rem;           /* Aumenta o tamanho da fonte */
-        color: white;             /* Cor */
-        font-family: 'Courier New', Courier, monospace; /* Fonte estilo código */
-        /* animation: fadeIn 2s ease-in-out;  */
-    }
-    .containerrodape2{
-        font-size: 0.8rem;           /* Tamanho da fonte maior */
-        color: white;                /* Cor do texto em cinza escuro */
-    }
-
-    
-
-    .contanFinal{
-        display: flex;
-        flex-direction: row;
-        padding-right: 40% ;
-        padding-left: 0;
-        margin-top: 0;
+    body{
+        margin: 0;
+        align-items: center;
     }
     .branco{
         display: none;
     }
     nav{
         display: block;
-        display: flex;
-        flex-wrap: wrap;
+        
     }
 
     .letrasHamb{
@@ -483,8 +443,153 @@ li Svg, .espaContato{
         text-align: center;
         display: block;
     }
+
+    .churrasCoderh1{
+        font-size: 1.8rem;  /* Aumenta o tamanho da fonte */
+        font-family: 'Courier New', Courier, monospace;/* Fonte estilo código */
+        background-color:var(--creme--); /* color: white; */
+        color: var(--marromH1--);
+        width: 100% ;
+    }
+    .containerApresentacaoh2{
+        font-size: 1.3rem;           /* Aumenta o tamanho da fonte */
+    color: #4B3621;             /* Cor */
+    font-family: 'Courier New', Courier, monospace; /* Fonte estilo código */
+    animation: fadeIn 2s ease-in-out; /* Animação de fade-in */
+    }
+    .containerApresentacaop{
+        font-size: 1.2rem;           /* Tamanho da fonte maior */
+    color: var(--textoCinza--);
+    }
+
+    .margin1717{
+        margin: 1% 23% 1% 23%;
+    }
+
+    .menuh2fonte{
+        font-size: 1.8rem;
+    }
+    .containerRodapeh2{
+        font-size: 1.9rem;           /* Aumenta o tamanho da fonte */
+        color: white;             /* Cor */
+        font-family: 'Courier New', Courier, monospace; /* Fonte estilo código */
+        /* animation: fadeIn 2s ease-in-out;  */
+    }
+    .containerrodape2{
+        font-size: 0.8rem;           /* Tamanho da fonte maior */
+        color: white;                /* Cor do texto em cinza escuro */
+    }
+    .contanFinal{
+        display: flex;
+        flex-direction: row;
+        padding-right: 40% ;
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    .margin2525125{
+        margin: 2.5% 25% 1% 25%
+    }
 }
 
+@media screen and (max-width: 412px) {
+    
+    .containerRodapeh2{
+        font-size: 1.9rem;           /* Aumenta o tamanho da fonte */
+        color: white;             /* Cor */
+        font-family: 'Courier New', Courier, monospace; /* Fonte estilo código */
+        /* animation: fadeIn 2s ease-in-out;  */
+    }
+    .containerrodape2{
+        font-size: 0.8rem;           /* Tamanho da fonte maior */
+        color: white;                /* Cor do texto em cinza escuro */
+    }
+    .contanFinal{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .marginEspRod{
+        margin: 2.5% 0 0 2.5%;
+        display: flex;
+    
+    }
+   
+    .margin2525125{
+        margin: 2.5% 22% 1% 22%
+    
+    }
+    .containerApresentacaoh2{
+        font-size: 1rem;           /* Aumenta o tamanho da fonte */
+    color: #4B3621;             /* Cor */
+    font-family: 'Courier New', Courier, monospace; /* Fonte estilo código */
+    animation: fadeIn 2s ease-in-out; /* Animação de fade-in */
+    }
+    .containerApresentacaop{
+        font-size: 1.2rem;           /* Tamanho da fonte maior */
+    color: var(--textoCinza--);
+    }
+
+    .margin1717{
+        margin: 1% 23% 1% 23%;
+    }
+
+    .menuh2fonte{
+        font-size: 1.8rem;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 320px){
+    .containerRodapeh2{
+        font-size: 1.6rem;           /* Aumenta o tamanho da fonte */
+        color: white;             /* Cor */
+        font-family: 'Courier New', Courier, monospace; /* Fonte estilo código */
+        /* animation: fadeIn 2s ease-in-out;  */
+    }
+    .contanFinal{
+        display: flex;
+        flex-direction: row;
+        padding-right: 40% ;
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    .containerApresentacaoh2{
+        font-size: 0.7rem;           /* Aumenta o tamanho da fonte */
+    color: #4B3621;             /* Cor */
+    font-family: 'Courier New', Courier, monospace; /* Fonte estilo código */
+    animation: fadeIn 2s ease-in-out; /* Animação de fade-in */
+    }
+    .containerApresentacaop{
+        font-size: 0.8rem;           /* Tamanho da fonte maior */
+    color: var(--textoCinza--);
+    }
+
+    .churrasCoderh1{
+        font-size: 1.5rem;  /* Aumenta o tamanho da fonte */
+        font-family: 'Courier New', Courier, monospace;/* Fonte estilo código */
+        background-color:var(--creme--); /* color: white; */
+        color: var(--marromH1--);
+        justify-content: center;
+        display: flex;
+    }
+
+    .containerRodapeh2{
+        font-size: 1.6rem;           /* Aumenta o tamanho da fonte */
+        color: white;             /* Cor */
+        font-family: 'Courier New', Courier, monospace; /* Fonte estilo código */
+        /* animation: fadeIn 2s ease-in-out;  */
+    }
+    .containerrodape2{
+        font-size: 0.7rem;           /* Tamanho da fonte maior */
+        color: white;                /* Cor do texto em cinza escuro */
+    }
+}
 /* @media screen and (max-width: 320 ) {
     
 } */
