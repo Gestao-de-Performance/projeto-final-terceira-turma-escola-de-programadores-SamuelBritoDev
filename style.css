@@ -1,6 +1,5 @@
 :root{
     --red--1: #fff;
-    --amarelo--: #DCC3A2;
     /* fazr isso com as cores oara deixar o site mais leve */
     --creme--: #DCC3A2;
     --marromMenu--: #8B5444;
@@ -32,7 +31,7 @@ gap é espacamento entre containers*/
     /* background-color:#E6A57E; */
     /* background-color:#DCC3A2 var(--creme--)  ;  */
 
-    background-color:var(--amarelo--);
+    background-color:var(--creme--);
     
     /* background-color:#C05F27; */
     /* background-color: #8B5444 var(--marromMenu--); */
@@ -308,7 +307,7 @@ nav{
 
 
 .clarearTexto{
-    background-color: var(--amarelo--);
+    background-color: var(--creme--);
     transition: 2s;
 
 }
@@ -362,6 +361,8 @@ li Svg, .espaContato{
     
 
 @media screen and (max-width: 767px) {
+
+
     .responsiveimg1, .responsiveimg2{
         width: 60%;
         height: auto;
@@ -413,7 +414,7 @@ li Svg, .espaContato{
     .menu-hamburguer {
         position: relative;
         padding: 10px;
-        background-color: var(--amarelo--);
+        background-color: var(--creme--);
     
     }
     
@@ -545,6 +546,8 @@ li Svg, .espaContato{
 }
 
 @media screen and (max-width: 320px){
+
+    
     .containerRodapeh2{
         font-size: 1.6rem;           /* Aumenta o tamanho da fonte */
         color: white;             /* Cor */
@@ -589,6 +592,8 @@ li Svg, .espaContato{
         font-size: 0.7rem;           /* Tamanho da fonte maior */
         color: white;                /* Cor do texto em cinza escuro */
     }
+
+
 }
 /* @media screen and (max-width: 320 ) {
     
