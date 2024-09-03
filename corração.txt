@@ -1,0 +1,6 @@
+Mudanças.
+
+No desktop está tudo ok.
+
+Diminuir um pouco o cabeçalho no mobile, ele está ocumando muito espaço da tela.
+A margem do site está muito grande, deixando os textos espremidos no meio, alguns até saem do espaço deles, como é o caso do rodapé.
